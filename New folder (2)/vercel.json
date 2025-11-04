@@ -1,0 +1,15 @@
+{
+	"version": 2,
+	"builds": [
+		{ "src": "index.html", "use": "@vercel/static" },
+		{ "src": "about.html", "use": "@vercel/static" },
+		{ "src": "ministries.html", "use": "@vercel/static" },
+		{ "src": "events.html", "use": "@vercel/static" },
+		{ "src": "sermons.html", "use": "@vercel/static" },
+		{ "src": "give.html", "use": "@vercel/static" },
+		{ "src": "contact.html", "use": "@vercel/static" },
+		{ "src": "contact-success.html", "use": "@vercel/static" },
+		{ "src": "assets/**/*", "use": "@vercel/static" }
+	]
+}
+

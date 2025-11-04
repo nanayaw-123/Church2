@@ -1,0 +1,9 @@
+[build]
+  publish = "."
+
+[[redirects]]
+  from = "/contact"
+  to = "/contact.html"
+  status = 301
+
+

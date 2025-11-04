@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Our Church for prayer, questions, or planning a visit.">
+    <title>Contact | Our Church</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container header-inner">
+            <a href="index.html" class="brand">
+                <img src="assets/img/logo.svg" alt="Our Church logo" class="logo">
+                <span>Our Church</span>
+            </a>
+            <nav class="nav" aria-label="Primary">
+                <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu">Menu</button>
+                <ul id="nav-menu" class="nav-list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="ministries.html">Ministries</a></li>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="sermons.html">Sermons</a></li>
+                    <li><a href="give.html">Give</a></li>
+                    <li><a class="active" href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main-content">
+        <section class="section">
+            <div class="container grid-2">
+                <div>
+                    <h1>Contact Us</h1>
+                    <p>Wed love to hear from you.</p>
+                    <p><strong>Office</strong>: Mon–Thu 9:00 AM – 4:00 PM</p>
+                    <p><strong>Phone</strong>: (555) 123-4567</p>
+                    <p><strong>Email</strong>: <a href="mailto:hello@ourchurch.org">hello@ourchurch.org</a></p>
+                    <p><a class="btn btn-secondary" href="https://maps.google.com" target="_blank" rel="noopener">Open in Maps</a></p>
+                </div>
+                <div class="card">
+                    <h2>Send a Message</h2>
+                    <form action="https://formspree.io/f/your-form-id" method="POST">
+                        <input type="hidden" name="_subject" value="New message from Our Church website">
+                        <input type="hidden" name="_next" value="/contact-success.html">
+
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" required></textarea>
+
+                        <div style="margin-top:12px;">
+                            <button class="btn btn-primary" type="submit">Send</button>
+                        </div>
+                    </form>
+                    <p><small>Using Formspree. Replace <code>your-form-id</code> with your endpoint from formspree.io.</small></p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-grid">
+            <div>
+                <a href="index.html" class="brand brand-footer">
+                    <img src="assets/img/logo.svg" alt="Our Church logo" class="logo">
+                    <span>Our Church</span>
+                </a>
+                <p>&copy; <span id="year"></span> Our Church. All rights reserved.</p>
+            </div>
+            <div>
+                <h4>Visit</h4>
+                <p>123 Hope Avenue<br>Your City</p>
+                <p>(555) 123-4567</p>
+            </div>
+            <div>
+                <h4>Follow</h4>
+                <ul class="social">
+                    <li><a href="#" aria-label="Facebook">Facebook</a></li>
+                    <li><a href="#" aria-label="YouTube">YouTube</a></li>
+                    <li><a href="#" aria-label="Instagram">Instagram</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
+
+
